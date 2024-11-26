@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apresentação do Jogo 1</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo CSS -->
+    <style>
+        /* Estilos gerais */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #f1f1f1;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #1e1e1e;
+            padding: 1em;
+        }
+
+        .navbar a {
+            color: #f1f1f1;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: #333333;
+            border-radius: 5px;
+        }
+
+        /* Seção do jogo */
+        .game-section {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 2em;
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+        }
+
+        .game-section h1 {
+            text-align: center;
+            color: #0004fd;
+        }
+
+        .game-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 1em;
+        }
+
+        .game-description {
+            margin-bottom: 1em;
+            font-size: 1em;
+            color: #bbbbbb;
+        }
+
+        .game-link {
+            display: inline-block;
+            margin: 1em 0;
+            padding: 0.5em 1em;
+            background-color: #0400ff;
+            color: #f1f1f1;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .game-link:hover {
+            background-color: #0026fd;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="sitee.html">Início</a>
+        <a href="areas-do-conhecimento.html">Àreas</a>
+        <a href="Tendencias.html">Tendências Tecnológicas</a>
+        <a href="portifolio.html">Portifólio</a>
+    </nav>
+    
+    <!-- Seção do Jogo -->
+
+    <div class="game-section">
+        <h1>Cibersegurança</h1>
+        <img src="../imagens/cibersegurança.jpg" alt="Imagem 1" class="game-image">
+        <p class="game-description">
+            A cibersegurança refere-se ao conjunto de práticas, tecnologias e processos voltados para proteger sistemas de informação, redes e dispositivos contra ataques, danos ou acessos não autorizados. Seu objetivo principal é garantir a confidencialidade, integridade e disponibilidade das informações, protegendo-as de ameaças como hackers, malwares, vírus, phishing e outras formas de cibercrimes. A cibersegurança é crucial tanto para empresas quanto para indivíduos, uma vez que a crescente digitalização aumenta a exposição a riscos no ambiente virtual.
+        </p>
+    </div>
+
+    <div class="game-section">
+        <h1>BlockChain</h1>
+        <img src="../imagens/blockchain.jpg" alt="Imagem 2" class="game-image">
+        <p class="game-description">
+            O blockchain é uma tecnologia de registro digital descentralizado que armazena dados de forma segura e transparente. Ele funciona como um livro-razão público, onde as informações são organizadas em "blocos" encadeados de maneira criptografada. Cada bloco contém uma lista de transações ou registros, e uma vez que os dados são registrados em um bloco, eles não podem ser alterados sem alterar todos os blocos subsequentes, o que garante a integridade das informações.
+
+O blockchain é a base para criptomoedas, como o Bitcoin, mas suas aplicações vão além, incluindo contratos inteligentes, rastreamento de cadeias de suprimentos, e sistemas financeiros descentralizados. Sua principal vantagem é a eliminação da necessidade de intermediários, permitindo transações diretas e seguras entre as partes envolvidas.
+        </p>
+    </div>
+
+    <div class="game-section">
+        <h1>Automação & Robótica</h1>
+        <img src="../imagens/Automação & Robótica.jpg" alt="Imagem do Jogo 1" class="game-image">
+        <p class="game-description">
+            Automação e robótica são áreas que envolvem o uso de tecnologias para realizar tarefas de forma automática, reduzindo ou eliminando a intervenção humana.
+
+Automação refere-se ao uso de sistemas ou dispositivos para controlar processos ou operações sem a necessidade de interação constante de um ser humano. Isso pode incluir desde sistemas simples, como controle de temperatura em uma fábrica, até processos mais complexos em setores como manufatura, logística e até serviços financeiros. O objetivo da automação é aumentar a eficiência, reduzir erros e otimizar o tempo de produção.
+
+Robótica, por sua vez, é uma área da engenharia e tecnologia que desenvolve e aplica robôs para executar tarefas específicas. Os robôs são máquinas programáveis que podem realizar uma variedade de funções, desde operações em ambientes industriais até interações mais complexas, como atendimento ao cliente ou cirurgias. A robótica pode ser aplicada em diversas indústrias, como automotiva, saúde, agricultura e até no espaço.
+        </p>
+    </div>
+
+    <div class="game-section">
+        <h1>Edge Computing</h1>
+        <img src="../imagens/Edge Computing.jpg" alt="Imagem do Jogo 1" class="game-image">
+        <p class="game-description">
+            
+Edge Computing é uma arquitetura de computação descentralizada que traz o processamento de dados para mais perto da fonte onde os dados são gerados, como dispositivos IoT (Internet das Coisas), sensores ou máquinas. Ao invés de enviar todos os dados para servidores ou data centers distantes, o processamento ocorre localmente, "na borda" da rede, o que reduz a latência e melhora a eficiência.
+
+Essa abordagem é especialmente útil para aplicações que exigem respostas rápidas, como em veículos autônomos, saúde digital e cidades inteligentes, onde a transmissão de dados para servidores distantes pode causar atrasos indesejados. O Edge Computing também contribui para a redução da largura de banda necessária, diminuindo a carga nos servidores centrais e tornando o sistema mais escalável.
+        </p>
+    </div>
+
+</body>
+</html>
